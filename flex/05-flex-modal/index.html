@@ -8,13 +8,28 @@
     <title>Modal</title>
   </head>
   <body>
+
     <div class="modal">
-      <div class="icon">!</div>
-      <div class="header">Are you sure you want to do that?</div>
-      <button class="close-button">✖</button>
-      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
-      <button class="continue">Continue</button>
-      <button class="cancel">Cancel</button>
+      
+      <!--Para evitar que flex deforme el icono-->
+        <div class="modal__icon">
+          <div class="icon">!</div>
+        </div>
+        
+        <div class="modal__cuerpo">
+          <div class="modal__header">
+            <h2 class="header">Are you sure you want to do that?</h2>
+            <button class="close-button">✖</button>
+          </div>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</p>
+          
+          <div class="modal__control">
+            <button class="continue">Continue</button>
+            <button class="cancel">Cancel</button>
+          </div>
+        </div>
+      
     </div>
+
   </body>
 </html>
