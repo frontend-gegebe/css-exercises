@@ -12,6 +12,20 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.izq {
+  display: inherit;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  padding:20px;
 }
 
 .profile-image {
@@ -36,6 +50,13 @@ button {
   color: white;
   padding: 8px 24px;
 }
+
+.der {
+  display: inherit;
+  align-items: center;
+  gap:20px;
+  margin-right: 20px;;
+} 
 
 a {
   /* this removes the line under our links */
